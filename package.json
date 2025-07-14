@@ -1,0 +1,17 @@
+{
+    "name": "popkain",
+    "version": "1.0.0",
+    "main": "popkain.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "sass popkain.scss:popkain.css -w",
+        "minify": "terser popkain.js -o popkain.min.js && csso popkain.css -o popkain.min.css"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "csso-cli": "^4.0.2",
+        "terser": "^5.43.1"
+    }
+}
